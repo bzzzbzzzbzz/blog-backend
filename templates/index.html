@@ -47,9 +47,9 @@
               <div class="single-recent-blog-post">
                 <div class="thumb">
                   {% if post.image_url %}
-                  <img class="img-fluid" src="{{post.image_url}}" alt="loading">
+                    <img class="img-fluid" src="{{post.image_url}}" alt="loading">
                   {% else %}
-                  <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="loading">
+                    <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="loading">
                   {% endif %}
                   <ul class="thumb-info", style="max-width: 550px;">
                     <li><a href="#"><i class="ti-user"></i>{{post.author}}</a></li>
